@@ -6,7 +6,7 @@ var assert = require('yeoman-generator').assert
 var helpers = require('yeoman-generator').test
 var os = require('os')
 
-describe( 'generator-koa-api:app', function () {
+describe( 'generator-pixi-babel:app', function () {
     before(function (done) {
         helpers.run(path.join(__dirname, '../app'))
             .inDir(path.join(os.tmpdir(), './temp-test'))
@@ -25,7 +25,8 @@ describe( 'generator-koa-api:app', function () {
         assert.file([
             'package.json',
             'README.md',
-            'index.js'
+            'src/main.js',
+            'src/styles.less'
         ])
         done()
     })
