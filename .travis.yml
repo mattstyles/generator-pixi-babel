@@ -4,4 +4,4 @@ node_js:
   - '4'
 before_install:
   - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != 'generator-mod-babel' ]; then cd .. && eval "mv $currentfolder generator-mod-babel" && cd generator-mod-babel; fi
+  - if [ "$currentfolder" != 'generator-pixi-babel' ]; then cd .. && eval "mv $currentfolder generator-pixi-babel" && cd generator-pixi-babel; fi

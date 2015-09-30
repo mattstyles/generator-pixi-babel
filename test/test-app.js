@@ -1,5 +1,5 @@
 /*global describe, beforeEach, it*/
-'use strict'
+
 
 var path = require('path')
 var assert = require('yeoman-generator').assert
@@ -24,9 +24,7 @@ describe( 'generator-pixi-babel:app', function () {
     it('creates files', function( done ) {
         assert.file([
             'package.json',
-            'README.md',
-            'src/main.js',
-            'src/styles.less'
+            'README.md'
         ])
         done()
     })
