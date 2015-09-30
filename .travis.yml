@@ -1,0 +1,7 @@
+sudo: false
+language: node_js
+node_js:
+  - '4'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-mod-babel' ]; then cd .. && eval "mv $currentfolder generator-mod-babel" && cd generator-mod-babel; fi
