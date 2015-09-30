@@ -27,5 +27,8 @@
         "node": true
     },
     "globals": {
+        "Modernizr": true,
+        "fetch": true,
+        "PIXI": true
     }
 }

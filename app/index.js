@@ -8,7 +8,7 @@ require( 'babel-core/register' )({
         'es6.modules',
         'es6.classes'
     ],
-    ignore: /generator-mod-babel\/node_modules/
+    ignore: /generator-pixi-babel\/node_modules/
 })
 
 module.exports = require( './app' )

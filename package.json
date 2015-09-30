@@ -27,7 +27,7 @@
     "pixi.js"
   ],
   "dependencies": {
-    "babel-core": "^5.8.25",
+    "babel-core": "^5.8.23",
     "chalk": "^1.1.1",
     "glob": "^5.0.15",
     "osenv": "^0.1.3",
