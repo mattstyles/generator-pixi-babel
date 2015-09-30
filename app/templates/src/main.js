@@ -4,22 +4,9 @@ import Pixi from 'pixi.js'
 import 'core/canvas'
 import renderer from 'core/renderer'
 
-let stage = new Pixi.Container()
+console.log( 'Hooray!' )
 
 
-function setup() {
-    let tex = Pixi.loader.resources[ 'assets/awesome.jpg' ].texture
-    let sprite = new Pixi.Sprite( tex )
-    stage.addChild( sprite )
-
-    renderer.render( stage )
+if ( process.env.DEBUG ) {
+    window.renderer = renderer
 }
-
-
-
-Pixi.loader
-    .add( 'assets/awesome.jpg' )
-    .load( setup )
-
-
-window.r = renderer
