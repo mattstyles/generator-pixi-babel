@@ -74,6 +74,7 @@
     "brfs": "^1.4.1",
     "browserify": "^11.2.0",
     "cleancss-transform": "^0.1.1",
+    "envify": "^3.4.0",
     "flowcheck": "^0.2.7",
     "ho": "^1.1.2",
     "livereload": "^0.3.7",
